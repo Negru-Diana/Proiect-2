@@ -1,0 +1,89 @@
+~ PROIECT 2 ~
+
+Un proiect de contabilitate presupune gestionarea datelor financiare si contabile, efectuarea de activitati financiare
+calcule, generarea de rapoarte și asigurarea securității datelor. Iată câteva cerințe comune
+pentru un astfel de proiect:
+1. Interfață utilizator: Dezvoltați o interfață de utilizator (UI) pentru a permite utilizatorilor să introducă și să vizualizeze date financiare. Acest
+poate fi un program de linie de comandă sau o interfață grafică de utilizator (recomandat). 10 puncte/20 puncte
+2. Gestionarea contului: Permite utilizatorilor să creeze, să editeze și să șteargă conturi financiare, cum ar fi economiile
+conturi, conturi de verificare, conturi de credit, etc.10 puncte
+3. Înregistrarea tranzacțiilor: Implementați funcționalitatea pentru a înregistra tranzacțiile financiare, inclusiv
+depozite, retrageri, transferuri, plăți, și mai mult. 10 puncte
+4. Calculul soldului: Calculați automat soldurile conturilor pe baza tranzacțiilor înregistrate.
+10 Puncte
+5. Raportarea financiară: Furnizați opțiuni pentru generarea de rapoarte financiare, cum ar fi extras de cont, solduri, registre de tranzacții și rapoarte de cheltuieli. 5 puncte
+6. Securitate și autentificare: Asigurați-vă că datele financiare sunt protejate, iar utilizatorii trebuie să se autentifice
+pentru a accesa sistemul contabil.5 puncte
+7. Managementul Datelor Clientului: Permite utilizatorilor să introducă și să gestioneze informații despre clienți sau clienți
+entități cu care fac afaceri. 5 puncte
+8. Exportul și importul datelor: Opțiunile de ofertă pentru exportul și importul datelor financiare în și din
+diferite formate de fișiere (de exemplu, CSV, Excel, export PDF). 5 puncte
+9. Validarea Datelor de Intrare: Efectuați verificări asupra datelor introduse de utilizator pentru a preveni erorile sau datele incorecte. 10 Puncte
+10. Eroare și Excepție de manipulare: Implementați un sistem pentru gestionarea corectă a erorilor și de manipulare
+situații excepționale care pot apărea în timpul procesului contabil. 15 puncte
+11. Audit și Logging: Mențineți un jurnal de activități și furnizați capacități de audit pentru a urmări modificările și
+activități legate de conturi. 5 puncte
+12. Documentaţie şi comentarii: Documentaţi codul (PDF) şi adăugaţi comentarii pentru a facilita acest lucru
+pentru a înțelege. 10 puncte
+13. Respectarea Cerințelor Specifice ale Proiectului: Asigurați-vă că proiectul îndeplinește cerințele specifice
+cerințele stabilite de instructor.
+14. Prezentare și explicații: Asigurați-vă că puteți explica și prezenta proiectul
+instructor sau colegi, subliniind caracteristicile cheie și deciziile de proiectare.
+
+
+
+Optiuni(1):
+	1. Autentificare
+	2. Creare cont
+
+
+Optiuni(2):
+	1. Conturi financiare :               (cerinta 2)    [DA]                        (conturi activ/pasiv)  
+		1.1. Creare cont financiar                    DA
+		1.2. Editare cont financiar                   DA
+		1.3. Stergere cont financiar	              DA
+		1.4. Vizualizeaza conturi financiare          DA
+		1.0. Inapoi				      DA
+
+	2. Tranzactii                            (cerinta 3)   [DA]                           (numar tranzactie, tip tranzactie, numar cont, operatie(+/-), beneficiar, suma, data)
+		2.1. Inregistrare tranzactii			DA
+		2.2. Vizualizare tranzactii                     DA
+		2.0. Inapoi					DA
+	
+	3. Calcul sold                           (cerinta 4)   [DA]
+
+	4. Rapoarte financiare                   (cerinta 5)
+		4.1. Extras de cont
+		4.2. Solduri					DA
+		4.3. Registre de tranzactii
+		4.4. Rapoarte de cheltuieli
+		4.0. Inapoi
+
+	5. Managementul datelor clientilor        (cerinta 7)
+		5.1. Adauga client
+		5.2. Modifica date client
+		5.3. Sterge client
+
+	6. Import/Export date financiare           (cerinta 8)
+		6.1. Import date (din Excel)
+		6.2. Export date (format PDF)
+
+	7. Audit si Logging			    (cerinta 11)
+		7.1. Jurnal activitati
+		7.2. Audit
+
+
+
+! MESAJ CA NU ESTE NIMIC DE AFISAT !
+
+Altele:
+
+	cerinta 1.  Interfata utilizator                                [DA]
+	cerinta 6.  Securitate si autentificare                         [DA]
+	cerinta 9.  Validarea datelor de intrare                        [DA]
+	cerinta 10. Erori si exceptii de manipulare                     [DA]
+	cerinta 12. Documentatie
+
+
+
+(cand se modifica numarul contului, sa se modifice in toate fisierele)
